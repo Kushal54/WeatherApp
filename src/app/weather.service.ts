@@ -11,7 +11,8 @@ export class WeatherService {
   getWeather(city){
     return this.http.get(`https://jsonmock.hackerrank.com/api/weather?name=${city}`);
     console.log("hello")
-    console.log("asas")
+    console.log("sds")
+    
   }
   //try same with query param
 }
